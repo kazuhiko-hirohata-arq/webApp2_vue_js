@@ -23,7 +23,5 @@
         push→「Enter」押下
     GitHub(GitKraken)上で反映を確認する 
 
-
-2 既存コード配置
-3 コミット
-4 vue.jsライブラリ導入
+2 vue.jsライブラリ導入
+    
