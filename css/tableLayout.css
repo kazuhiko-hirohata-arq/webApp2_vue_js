@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+table {
+  table-layout:fixed;
+  align-content: center;
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 350px;
+  height: 350px;
+}
+caption{
+  font-size: 2em;
+  color: skyblue;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+table td,table th {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20pt;
+    background-color: skyblue;
+  }
+
+ .btn {
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: 0px;
+    padding: 1.0em 1.0em;
+    text-decoration: none;
+    color: #FFF;
+    background: silver;
+    border: solid 1px #0f9ada;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.btn:active {/*押したとき*/
+    border: solid 1px #03A9F4;
+    box-shadow: none;
+    text-shadow: none;
+}

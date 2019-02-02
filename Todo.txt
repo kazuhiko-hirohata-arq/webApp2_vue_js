@@ -22,10 +22,6 @@
         「command+Shift+P」
         push→「Enter」押下
     GitHub(GitKraken)上で反映を確認する 
-        
-
-
-
 
 
 2 既存コード配置

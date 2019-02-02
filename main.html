@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--css-->
+    <link rel="stylesheet" href="./css/tableLayout.css">
+    <link rel="stylesheet" href="./css/pageLayout.css">
+    <!--js-->
+    <script type="text/javascript" src="./js/drawPicture.js"></script>
+    <title>まるばつげーむ</title>
+</head>
+<body>
+    <!--表定義-->
+    <table id="mainTable">
+        <caption>まるばつげーむ</caption>
+        <tr>
+            <td id="c0" onclick="drawObject(this);"></td>
+            <td id="c1" onclick="drawObject(this);"></td>
+            <td id="c2" onclick="drawObject(this);"></td>
+        </tr>
+        <tr>
+            <td id="c3" onclick="drawObject(this);"></td>
+            <td id="c4" onclick="drawObject(this);"></td>
+            <td id="c5" onclick="drawObject(this);"></td>
+        </tr>
+        <tr>
+            <td id="c6" onclick="drawObject(this);"></td>
+            <td id="c7" onclick="drawObject(this);"></td>
+            <td id="c8" onclick="drawObject(this);"></td>
+        </tr>
+    </table>
+
+<!--クリアボタン-->
+<input type="button" class="btn" id="clearBtn" value="リセット" onclick="clearTable(mainTable);" >
+</body>
+</html>
