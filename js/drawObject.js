@@ -37,6 +37,8 @@ function drawObject(Cell){
     if (ret) {
         alert(ret);
     }
+
+    window.onload 
 }
     //判定用関数
 function judge(){
