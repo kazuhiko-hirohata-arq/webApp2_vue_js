@@ -25,7 +25,7 @@ function drawObject(Cell){
 
     //先攻後攻交代
     if(!chgFlg){   
-        Cell.innerText = "🙆‍♀️";
+        Cell.innerText = "";
         chgFlg = true;
     }else{
         Cell.innerText = "🙅‍♂️";
