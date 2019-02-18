@@ -15,10 +15,10 @@ function clearTable(table){
 }
 
 //描画関数
-function drawObject(Cell){
+function drawObject(table){
 
     //入力チェック
-    if (Cell.innerText != "") {
+    if ( != "") {
         alert("入力できません。");
         return;
     }

@@ -14,8 +14,10 @@
     text-shadow: 0 1px 0 rgba(0,0,0,0.2);
 }
 
-.btn:action {
+.btn:active {
     border: solid 1px #03A9F4;
     box-shadow: none;
     text-shadow: none;
+    transform: translateY(3px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
 }
