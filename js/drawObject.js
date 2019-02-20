@@ -2,20 +2,6 @@
 //グローバル変数になるのであまりよろしくない
 var chgFlg = false;
 var turnCnt = 0;
-
-//テーブルの要素を削除して結果をリセット
-function clearTable(){
-
-    //table要素を取得
-    var table = document.getElementById(maintable);
-    
-    for(var i=0; i<3; i++){
-        for(var j=0; j<3; j++){
-            table.rows[i].cells[j].innerHTML = "aaa";
-        }
-    }
-}
-
 //描画関数
 function drawObject(table){
 
@@ -27,7 +13,7 @@ function drawObject(table){
 
     //先攻後攻交代
     if(!chgFlg){   
-        Cell.innerText = "";
+        Cell.innerText = "🙆‍♂️";
         chgFlg = true;
     }else{
         Cell.innerText = "🙅‍♂️";
@@ -87,12 +73,14 @@ function judge(){
 }
 
 //テーブルの要素を削除して結果をリセット
-function clearTable(table){
-    alert("結果をリセットします");
-    
+function clearTable(){
+
+    //table要素を取得
+    var table = document.getElementById('maintable');
+
     for(var i=0; i<3; i++){
         for(var j=0; j<3; j++){
-            table.rows[i].cells[j].innerText = "";
+            table.rows[i].cells[j].innerHTML = "aaa";
         }
     }
 }

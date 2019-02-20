@@ -9,16 +9,36 @@
     <link rel="stylesheet" href="./css/tableLayout.css">
     <link rel="stylesheet" href="./css/buttonLayout.css">
     <!--js読み込み-->
-    <script type="text/javascript" src="./js/createTable.js"></script>
     <script type="text/javascript" src="./js/drawObject.js"></script>
     <script type="text/javascript" src="./node_modules/vue/dist/vue.min.js"></script>
 </head>
 <body onload="createTable();">
     <!--ページタイトル-->
     <title>まるばつげーむ</title>
-    <!--オブジェクトを動的生成する-->
-    <div id="mainTable"></div>
+    <body>
+        <!--表定義-->
+        <table id="mainTable">
+            <caption>まるばつげーむ</caption>
+            <tr>
+                <td id="c0" onclick="drawObject(this);"></td>
+                <td id="c1" onclick="drawObject(this);"></td>
+                <td id="c2" onclick="drawObject(this);"></td>
+            </tr>
+            <tr>
+                <td id="c3" onclick="drawObject(this);"></td>
+                <td id="c4" onclick="drawObject(this);"></td>
+                <td id="c5" onclick="drawObject(this);"></td>
+            </tr>
+            <tr>
+                <td id="c6" onclick="drawObject(this);"></td>
+                <td id="c7" onclick="drawObject(this);"></td>
+                <td id="c8" onclick="drawObject(this);"></td>
+            </tr>
+        </table>
+    
     <!--クリアボタン-->
-    <input type="button" class="btn" id="clearBtn" value="リセット" onclick="clearTable();">
+    <input type="button" class="btn" id="clearBtn" value="リセット" onclick="clearTable(mainTable);">
+    </body>
+    </html>
 </body>
 </html>
