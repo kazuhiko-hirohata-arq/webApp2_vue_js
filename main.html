@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/buttonLayout.css">
     <!--js読み込み-->
     <script type="text/javascript" src="./js/createTable.js"></script>
+    <script type="text/javascript" src="./js/drawObject.js"></script>
     <script type="text/javascript" src="./node_modules/vue/dist/vue.min.js"></script>
 </head>
 <body onload="createTable();">
@@ -18,6 +19,6 @@
     <!--オブジェクトを動的生成する-->
     <div id="mainTable"></div>
     <!--クリアボタン-->
-    <input type="button" class="btn" id="clearBtn" value="リセット" onclick="clearTable(mainTable);">
+    <input type="button" class="btn" id="clearBtn" value="リセット" onclick="clearTable();">
 </body>
 </html>
